@@ -1,39 +1,44 @@
-import React from "react";
-import Logo from "../assets/Logo.svg";
+import React from "react"
+import small_logo from "../assets/Logo.svg"
 
 const Footer = () => {
-  return (
-    <footer>
-        <img src={Logo} alt="Footer Logo" />
-        <p>&copyright; 2024</p>
-        <section>
-            <h2>Links</h2>
+    return(
+        <footer className="">
+            <section>
+            <div className="company-info">
+                <img src={small_logo} alt=""/>
+                <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
+            </div>
+            <div>
+                <h3>Important Links</h3>
             <ul>
-                <li> <a href="/">Home</a></li>
-                <li> <a href="/about">About</a></li>
-                <li> <a href="/menu">Menu</a></li>
-                <li> <a href="/reservation">Reservation</a></li>
-                <li> <a href="/login">Login</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Reservations</a></li>
+                <li><a href="/">Order Online</a></li>
+                <li><a href="/">Login</a></li>
             </ul>
-        </section>
-        <section>
-            <h2>Contacts</h2>
+            </div>
+            <div>
+                <h3>Contact</h3>
             <ul>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
+            <li>Address: <br/> 123 Town Street, Chicago</li>
+                <li>Phone: <br/> +00 123 456 789</li>
+                <li>Email: <br/> little@lemon.com</li>
             </ul>
-        </section>
-        <section>
-            <h2>Social Media</h2>
+            </div>
+            <div>
+                <h3>Social Media Links</h3>
             <ul>
-                <li> <a href="/facebook">Facebook</a></li>
-                <li> <a href="/twitter">Twitter</a></li>
-                <li> <a href="/instagram">Instagram</a></li>
+                <li><a href="/">Facebook</a></li>
+                <li><a href="/">Instagram</a></li>
+                <li><a href="/">Twitter</a></li>
             </ul>
-        </section>
-    </footer>
-  );
+            </div>
+            </section>
+        </footer>
+    )
 }
 
 export default Footer;

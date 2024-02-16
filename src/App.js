@@ -12,7 +12,7 @@ function App() {
       <Nav/>
       <Header/>
     <Main></Main>
-    <Footer></Footer>
+    <Footer/>
     </Router>
   );
 }
