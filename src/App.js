@@ -4,15 +4,16 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import Nav from './components/Nav';
-import Header from './components/Header';
+//import Header from './components/Header';
+import Menu from './components/Menu';
 
 function App() {
   return (
     <Router>
       <Nav/>
-      <Header/>
-    <Main></Main>
-    <Footer/>
+      <Main/>
+      <Menu/>
+      <Footer/>
     </Router>
   );
 }

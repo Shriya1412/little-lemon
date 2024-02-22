@@ -115,7 +115,7 @@ button {
   position: absolute;
   right: 13%;
   top: 15%;
-  width: 400px;
+  width: 350px;
 }
 
 .banner-img img {
@@ -188,7 +188,7 @@ input, label{
 }
 
 .menu-items{
-  /* height: 400px; */
+  height: 500px;
   width: 350px;
   background: #a9c8be;
   border-radius: 8px;
@@ -280,7 +280,7 @@ footer ul li{
     display: none;
   }
 
-  form, .comfirm{
+  form, .confirm{
     padding: 10px 8%;
   }
 
@@ -310,4 +310,15 @@ footer ul li{
 
 .hidden{
   display: none;
+}
+
+.allergyContainer {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.allergyContainer label {
+  margin-right: 10px; /* Adjust spacing as needed */
+  align-self: flex-start; /* Align label at the top */
 }
